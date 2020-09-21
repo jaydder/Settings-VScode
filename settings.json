@@ -294,8 +294,5 @@ OBS: Is recommend use theme Dracula
   "python.linting.enabled": true,
   "window.menuBarVisibility": "hidden",
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "remote.SSH.remotePlatform": {
-    "192.168.200.69": "linux"
-  },
   "workbench.iconTheme": "vscode-icons"
 }
