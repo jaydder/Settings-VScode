@@ -1,15 +1,9 @@
-/*
-author: jaydder Oliveira Pereira
-
-OBS: Is recommend use theme Dracula
-*/
-
 {
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 11,
-  "editor.lineHeight": 17,
+  "editor.lineHeight": 16,
   "editor.fontLigatures": true,
-  "editor.rulers": [85],
+  "editor.rulers": [79],
   "editor.formatOnSave": true,
   "editor.autoIndent": "full",
   "editor.formatOnPaste": true,
@@ -116,10 +110,14 @@ OBS: Is recommend use theme Dracula
     "editorHoverWidget.background": "#191622",
     "editorHoverWidget.border": "#483c67",
     "editorIndentGuide.activeBackground": "#e1e1e645",
-    "editorIndentGuide.background": "#ffffff1a",
+    // "editorIndentGuide.background": "#ffffff1a",
+    // "editorLineNumber.activeForeground": "#f88315"
     "editorLineNumber.activeForeground": "#44c8f0",
+    // "editor.lineHighlightBackground": "#ff000000",
+    // "editor.lineHighlightBorder": "#ff000000",
     "editorLineNumber.foreground": "#483c67",
     "editorLink.activeForeground": "#988bc7",
+    // "editorLineNumber.foreground": "#5d507c",
     "editorMarkerNavigation.background": "#13111b",
     "editorOverviewRuler.addedForeground": "#67e48080",
     "editorOverviewRuler.border": "#15121e",
@@ -224,7 +222,6 @@ OBS: Is recommend use theme Dracula
     "statusBarItem.remoteBackground": "#78d1e1",
     "statusBarItem.remoteForeground": "#e1e1e6",
     "tab.activeBackground": "#191622",
-    "tab.activeBorderTop": "#ff79c680",
     "tab.activeForeground": "#fcfcfc",
     "tab.border": "#15121e",
     "tab.inactiveBackground": "#13111b",
@@ -289,10 +286,17 @@ OBS: Is recommend use theme Dracula
     "editor.formatOnSave": false
   },
   "python.autoComplete.addBrackets": true,
-  "workbench.colorTheme": "Dracula",
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
   "window.menuBarVisibility": "hidden",
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "workbench.iconTheme": "vscode-icons"
+  "remote.SSH.remotePlatform": {
+    "192.168.200.69": "linux"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "python.defaultInterpreterPath": "C:\\Users\\jaydd\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+  "workbench.colorTheme": "Tomorrow Night Blue"
 }

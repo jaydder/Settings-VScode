@@ -109,10 +109,6 @@
     "command": "workbench.files.action.focusFilesExplorer"
   },
   {
-    "key": "oem_comma t",
-    "command": "workbench.action.quickOpen"
-  },
-  {
     "key": "ctrl+shift+n",
     "command": "-workbench.action.quickOpen"
   }
