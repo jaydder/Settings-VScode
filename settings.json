@@ -1,9 +1,15 @@
 {
-  "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 11,
-  "editor.lineHeight": 16,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 22,
   "editor.fontLigatures": true,
-  "editor.rulers": [79],
+  "editor.fontWeight": "normal",
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.tabSize": 2,
+  "window.zoomLevel": 0,
+  "editor.rulers": [85],
   "editor.formatOnSave": true,
   "editor.autoIndent": "full",
   "editor.formatOnPaste": true,
@@ -29,16 +35,16 @@
       "source.fixAll.eslint": true
     }
   },
+  "[robot]": {
+    "editor.fontLigatures": false,
+    "editor.tabSize": 4
+  },
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
     ".prettierrc": "json"
   },
-  "editor.renderLineHighlight": "gutter",
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.lineHeight": 1.2,
-  "editor.tabSize": 2,
-  "window.zoomLevel": 0,
+
   "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -224,6 +230,7 @@
     "tab.activeBackground": "#191622",
     "tab.activeForeground": "#fcfcfc",
     "tab.border": "#15121e",
+    "tab.activeBorder": "#71383800",
     "tab.inactiveBackground": "#13111b",
     "tab.inactiveForeground": "#6b6969",
     "terminal.ansiBlack": "#201b2d",
@@ -254,16 +261,16 @@
     "walkThrough.embeddedEditorBackground": "#13111b"
   },
   "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
+  "exporer.confirmDelete": false,
   "editor.minimap.enabled": false,
   "files.trimTrailingWhitespace": true,
   "editor.dragAndDrop": true,
   "files.insertFinalNewline": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "smooth",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.cursorStyle": "line",
-  "editor.cursorBlinking": "smooth",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -282,8 +289,9 @@
   "workbench.activityBar.visible": false,
   "[python]": {
     "editor.tabSize": 4,
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnSave": false
+    "editor.rulers": [79],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.python"
   },
   "python.autoComplete.addBrackets": true,
   "python.linting.pylintEnabled": true,
@@ -293,10 +301,10 @@
   "remote.SSH.remotePlatform": {
     "192.168.200.69": "linux"
   },
-  "workbench.iconTheme": "vscode-icons",
   "[markdown]": {
     "editor.formatOnSave": false
   },
-  "python.defaultInterpreterPath": "C:\\Users\\jaydd\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
-  "workbench.colorTheme": "Tomorrow Night Blue"
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renameOnType": true,
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast"
 }
