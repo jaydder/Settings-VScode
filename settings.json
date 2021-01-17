@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "Hasklig semibold",
   "editor.fontSize": 13,
   "editor.lineHeight": 22,
   "editor.fontLigatures": true,
@@ -29,7 +29,6 @@
       "source.fixAll.eslint": true
     }
   },
-  "editor.renderWhitespace": "boundary",
   "[typescriptreact]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
@@ -37,14 +36,14 @@
   },
   "[robot]": {
     "editor.fontLigatures": false,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.rulers": [0]
   },
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
     ".prettierrc": "json"
   },
-
   "extensions.ignoreRecommendations": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -262,12 +261,10 @@
   },
   "explorer.confirmDragAndDrop": false,
   "exporer.confirmDelete": false,
-  "editor.minimap.enabled": false,
-  "files.trimTrailingWhitespace": true,
+  "files.trimTrailingWhitespace": false,
   "editor.dragAndDrop": true,
   "files.insertFinalNewline": true,
   "editor.cursorStyle": "line",
-  "editor.cursorBlinking": "smooth",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -275,8 +272,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.suggestSelection": "first",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "Hasklig semibold",
   "prettier.jsxBracketSameLine": true,
   "prettier.jsxSingleQuote": true,
   "editor.trimAutoWhitespace": true,
@@ -288,23 +284,44 @@
   "python.languageServer": "Microsoft",
   "workbench.activityBar.visible": false,
   "[python]": {
-    "editor.tabSize": 4,
     "editor.rulers": [79],
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.autoComplete.addBrackets": true,
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
-  "window.menuBarVisibility": "hidden",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-  "remote.SSH.remotePlatform": {
-    "192.168.200.69": "linux"
-  },
+  "window.menuBarVisibility": "toggle",
   "[markdown]": {
     "editor.formatOnSave": false
   },
   "workbench.iconTheme": "material-icon-theme",
   "editor.renameOnType": true,
-  "workbench.colorTheme": "Community Material Theme Palenight High Contrast"
+  "explorer.confirmDelete": false,
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "workbench.colorTheme": "Hyper Term Black",
+  "editor.cursorBlinking": "smooth",
+  "workbench.statusBar.visible": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.localEchoExcludePrograms": [
+    "vim",
+    "vi",
+    "nano",
+    "tmux",
+    "nvim"
+  ]
 }
