@@ -49,7 +49,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+b",
+    "key": ", q",
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "!editorFocus && !inDebugRepl && !problemFocus && !terminalFocus"
   },
@@ -99,10 +99,6 @@
   {
     "key": "alt+a",
     "command": "workbench.files.action.focusFilesExplorer"
-  },
-  {
-    "key": "ctrl+shift+n",
-    "command": "-workbench.action.quickOpen"
   },
   {
     "key": "ctrl+d",
